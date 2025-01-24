@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #282c34, #3b3f47);
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#stopwatch {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #3b3f47;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #444;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#startBtn {
+    background-color: #4caf50;
+    color: white;
+}
+
+#startBtn:hover {
+    background-color: #45a049;
+}
+
+#pauseBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+#pauseBtn:hover {
+    background-color: #e53935;
+}
+
+#resetBtn {
+    background-color: #ff9800;
+    color: white;
+}
+
+#resetBtn:hover {
+    background-color: #fb8c00;
+}
+
+#lapBtn {
+    background-color: #2196f3;
+    color: white;
+}
+
+#lapBtn:hover {
+    background-color: #1e88e5;
+}
+
+.lap-times {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.lap {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#laps {
+    width: 300px;
+    background-color: #3b3f47;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #444;
+}
+
+#lapList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lapList li {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
